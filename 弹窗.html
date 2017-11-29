@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/article.css">
+    <title>弹窗</title>
+</head>
+<body>
+<div class="cover-article">
+    <div class="pop-article" style="display:none;">
+        <div class="pop-hd">
+            <div class="pop-tab">
+                <a href="#">本地视频</a>
+                <a href="#" class="cur">在线视频</a>
+            </div>
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-body">
+            <div class="pop-addr">
+                <p>请复制粘贴视频源文件地址(视频格式必须是SWF)</p>
+                <div class="addr-box">
+                    <input type="text" class="ipt-addr"  /><a href="#" class="btn-pop-submit">确定</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="pop-article">
+        <div class="pop-hd">
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-body">
+            <div class="pop-note">
+                <span class="ico-tips ico-warn"></span>
+                <p>请上传<span>宽度大于1280，高度大于650</span>的图片</p>
+            </div>
+        </div>
+        <div class="pop-ft">
+            <a href="#" class="btn-pop-ok">我知道了</a>
+        </div>
+    </div>
+
+    <div class="pop-article">
+        <div class="pop-hd">
+            <a href="#" title="关闭" class="pop-close"></a>
+        </div>
+        <div class="pop-body">
+            <div class="pop-note">
+                <p><span>您还没添加首图，将不会被推荐到影评库哦~</span></p>
+            </div>
+        </div>
+        <div class="pop-ft">
+            <a href="#" class="btn-pop-ok">上传首图</a>
+            <a href="#" class="btn-pop-ok btn-sec">跳过，直接发表&gt;</a>
+        </div>
+    </div>
+
+    <div class="pop-upload">
+        <div class="upload-clip">
+            <!-- 嵌入canvas -->
+        </div>
+        <div class="wp-pop-btn">
+            <a href="#">确定</a><a href="#" class="btn-cancel">取消</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
